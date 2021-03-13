@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.App{
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+    margin: auto;
+    margin-top: 50px;
+    width : 450px;
+    min-height: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 243, 229);
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px rgb(66, 60, 60);
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+.do-item{
+    font-family: 'Indie Flower', cursive;
+    font-size: medium;
+    width: 175px;
+    height: 30px;
+    border-style: dashed;
+    border-width: 0px 0px 5px 0px;
+    background-color: rgb(255, 243, 229);
+}
+.do-list{
+    margin: 20px;
+    padding: 10px;
+    text-align: justify;
+}
+.list-item{
+    margin: 10px auto 10px 20px;
+    width: 100%;
+    display: inline-flex;
+}
+.btn{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    margin: 10px;
+    padding: 0px 25px;
+    border-radius: 5px;
+    background-color: rgb(148, 211, 206);
+    border: 2px solid rgb(5, 7, 7);
+}
+.btn:hover {
+    background-color: rgb(151, 245, 237);
+  }
+.do-item:focus {
+    border: 3px solid rgb(25, 204, 204);
+  }
+.remove{
+    margin-left: auto;
+    margin-right: 35px;
+    justify-items: right;
+    font-size: smaller;
+    color: rgb(70, 70, 70);
+}
+.remove:hover{
+    color: rgb(255, 82, 82);
+}
